@@ -45,6 +45,7 @@ ctx.lists["user.code_functions"] = {
     "dict": "dict",
     "dictionary": "dict",
     "dir": "dir",
+    "dirt": "dir",
     "div mod": "divmod",
     "enumerate": "enumerate",
     "eval": "eval",
