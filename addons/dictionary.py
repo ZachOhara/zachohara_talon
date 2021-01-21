@@ -15,6 +15,7 @@ mod = Module()
 
 def open_editor(filepath):
     subprocess.Popen('%s %s' % (EDITOR_PATH, filepath))
+    # TODO: Find a way to terminate this process so it doesn't leak
 
 @mod.action_class
 class Actions:
