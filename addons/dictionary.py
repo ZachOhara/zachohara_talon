@@ -35,3 +35,7 @@ class Actions:
     def dictionary_edit_extensions():
         """Open a text editor to edit extensions.talon"""
         open_editor(EXTENSION_LIST_PATH)
+
+    def dictionary_open_editor(filepath: str):
+        """Open a text editor to it any given file"""
+        open_editor(filepath)
