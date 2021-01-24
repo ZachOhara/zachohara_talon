@@ -1,3 +1,4 @@
+at symbol: "@"
 question [mark]: "?"
 (downscore | underscore): "_"
 double dash: "--"
@@ -34,28 +35,39 @@ empty escaped string:
 inside (squares | list): 
 	insert("[]") 
 	key(left)
-inside (bracket | braces): 
+inside bracket: 
 	insert("{}") 
-	key(left)
+    key(left)
+inside angle:
+    insert("<>")
+    key(left)
 inside percent: 
 	insert("%%") 
 	key(left)
-inside quotes:
+inside (double|dub) quotes:
 	insert('""')
-	key(left)
+    key(left)
+inside single quotes:
+    insert("''")
+    key(left)
+(parens | args) that:
+    text = edit.selected_text()
+    user.paste("({text})")
+square that:
+    text = edit.selected_text()
+    user.paste("[{text}]")
+bracket that: 
+    text = edit.selected_text()
+    user.paste("{{{text}}}")
 angle that: 
     text = edit.selected_text()
     user.paste("<{text}>")
-(bracket | brace) that: 
-    text = edit.selected_text()
-    user.paste("{{{text}}}")
-(parens | args) that: 
-    text = edit.selected_text()
-    user.paste("({text})")
 percent that: 
     text = edit.selected_text()
     user.paste("%{text}%")
-quote that:
+(double) quote that:
     text = edit.selected_text()
     user.paste('"{text}"')
-
+single quote that:
+    text = edit.selected_text()
+    user.paste("'{text}'")
