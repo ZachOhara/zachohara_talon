@@ -1,16 +1,21 @@
 Command, Pronunciation (if different), [Pronunciation 2], ...
 
 author
-caption
-chapter
+title
 date
-footnote
-geometry
-linespread,line spread
+usetheme,use theme
+
+chapter
 section
-setlength,set length
 subsection
 subsubsection,sub subsection
-title
-usetheme,use theme
+
+caption
+footnote
 vspace,V space,the space,vertical space
+
+everymath,every math
+everydisplay,every display
+geometry
+linespread,line spread
+setlength,set length

@@ -1,0 +1,19 @@
+before@after, Name, [Name 2], ...
+
+\lim @,limit
+\lim_{x\rightarrow\infty} @,infinite limit,infinite limit x
+\lim_{n\rightarrow\infty} @,infinite limit end
+
+\frac{d}{dx}(@),derivative,derive
+\int @ \,d,integral,integrate
+\int_{0}^{\infty} @ \,d,infinite integral
+
+\sum @,sum,summation
+\sum_{n=1}^{\infty},infinite sum
+\prod @,product
+\prod_{n=1}^{\infty} @,infinite product
+
+\frac{@}{},fraction
+\binom{@}{},binomial
+
+\fbox{@},F box,box

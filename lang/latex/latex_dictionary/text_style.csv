@@ -1,0 +1,31 @@
+Style Command, Pronunciation (if different), [Pronunciation 2], ...
+
+mathbb,math BB
+mathbf,math BF,math bold
+mathcal,math cal
+mathfrak,math frak
+mathit,math IT,math italic,math italics
+mathmd,math MD,math medium
+mathrm,math RM,math Roman
+mathsc,math SC,math small caps
+mathsf,math SF,math sans serif
+mathsl,math SL,math slanted
+mathtt,math TT,math typewriter
+mathup,Matthew P,math up,math upright
+
+textbf,text BF,text bold,bold
+textcal,text cal
+textcite,text site,text citation,citation
+textfrak,text frak
+textit,text IT,text italic,text italics,italic,italics
+textmd,text MD,text medium,medium
+textrm,text RM,text Roman,Roman
+textsc,text SC,text small caps,small caps
+textsf,text SF,text sans serif,sans serif
+textsl,text SL,text slanted,slanted
+texttt,text TT,text typewriter,typewriter
+textup,text you P,text up,text upright,upright
+
+emph,emphasize,emphasized,emphasis
+
+fbox,F box,box

@@ -4,8 +4,6 @@ import csv, os
 
 LATEX_EXTENSIONS = ('.tex',)
 
-# context = Context('latex', func=is_filetype(LATEX_EXTENSIONS))
-
 LATEX_DICTIONARY_DIRECTORY = 'user\\zachohara_talon\\lang\\latex\\latex_dictionary'
 
 LATEX_DICTIONARY_LISTS = {
@@ -16,13 +14,13 @@ LATEX_DICTIONARY_LISTS = {
     'command': 'latex common commands',
     'command_argumented': 'latex common commands requiring arguments',
     'text_style': 'latex common text styles',
-    'greek': 'latex Greek alphabet',
-    'greek_capital': 'latex Greek capital alphabet',
-    'shortcuts': 'latex common notation figures',
+    'greek_letter': 'latex Greek alphabet',
+    'shortcut': 'latex common notation figures',
     'function': 'latex common functions',
     'symbol': 'latex common symbols without arguments',
-    'symbol_argumented': 'latex common symbols requiring arguments',
-    'symbol_boundable': 'latex common symbols that can be bounded'
+    'symbol_argumented': 'latex common symbols requiring 1 argument',
+    'symbol_argumented_double': 'latex common symbols requiring 2 arguments',
+    'formatter': 'latex formatters'
 }
 
 directory_path = os.path.join(os.getcwd(), LATEX_DICTIONARY_DIRECTORY)
@@ -70,3 +68,20 @@ class Actions:
             LATEX_DICTIONARY_LISTS.keys(),
             actions.user.latex_edit_dictionary
         )
+
+    def latex_apply_text_style(text_style: str):
+        """Apply a latex text style"""
+        selected = actions.edit.selected_text()
+        actions.edit.delete()
+        actions.insert('\\'+text_style+'{')
+        actions.insert(selected)
+        actions.insert('}')
+
+    def latex_apply_formatter(formatter: str):
+        """Apply a latex formatter"""
+        before, after = formatter.split('@')
+        selected = actions.edit.selected_text()
+        actions.edit.delete()
+        actions.insert(before)
+        actions.insert(selected)
+        actions.insert(after)

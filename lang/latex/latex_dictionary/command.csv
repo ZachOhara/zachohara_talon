@@ -1,13 +1,50 @@
 Command, Pronunciation (if different), [Pronunciation 2], ...
 
-bigskip,big skip
+familydefault,family default
 item
-maketitle,make title
-medskip,med skip,mid skip,medium skip
 noindent,no indent
 pagebreak,page break
+renewcommand,renew command
+backslash,escape backslash,escaped backslash
+
+limits
+displaystyle,display style
+
+maketitle,make title
+tableofcontents,table of contents
+printbibliography,print bibliography
+
+medskip,med skip,mid skip,medium skip
+bigskip,big skip
+
+tiny
+scriptsize,script size
+footnotesize,footnote size
+small
+normalsize,normal size
+large
+Large,big large
+LARGE,big big large
+huge
+Huge,big huge
+HUGE,big big huge
+
+big,big,big one
+Big,big two
+bigg,big three
+Bigg,big four
+
 parindent,pair indent,part indent
 parskip,pair skip,part skip
-printbibliography,print bibliography
-tableofcontents,table of contents
-backslash,escape backslash,escaped backslash
+mathsurround,math surround,maths around
+jot
+
+newenvironment,new environment
+
+fboxsep=,F box sep,F box separation
+fboxrule=,F box rule
+arraycolsep=,array call sep,array column separation
+abovedisplayskip=,above display skip
+abovedisplayshortskip=,above display short skip
+belowdisplayskip=,below display skip
+belowdisplayshortskip=,below display short skip

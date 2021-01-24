@@ -1,0 +1,80 @@
+Symbol, Pronunciation (if different), [Pronunciation 2], ...
+
+times,times,multiplied,multiplied by,multiplication
+div,div,divided,divided by,division
+pm,plus minus,plus or minus
+mp,minus plus,minus or plus
+
+le,less equal,less equals,less or equal,less or equals
+ge,greater equal,greater equals,greater or equal,greater or equals
+neq,not equal,not equals
+approx,a prox,approximately equal,approximately equals
+sim,sim,similar
+simeq,sim EQ,similar equal,similar equals
+
+subseteq,subset,subset EQ,subset equal
+subset,proper subset,subset proper
+supseteq,superset,superset EQ,superset equal
+supset,proper superset,superset proper
+in
+notin,not in
+cup,cup,union
+cap,cap,intersect,intersection
+
+lim,limit
+sum,sum,summation
+prod,product
+bigcup,big cup,big union
+bigcap,big cap,big intersection
+
+iff,if only if,if and only if
+implies
+exists
+forall,for all
+neg,not,logical not
+lor,logical or
+land,logical and
+
+uparrow,up arrow
+downarrow,down arrow
+leftarrow,left arrow
+rightarrow,right arrow
+updownarrow,up down arrow
+leftrightarrow,left right arrow
+longleftarrow,long left arrow
+longrightarrow,long right arrow
+longleftrightarrow,long left right arrow
+Uparrow,big up arrow,up arrow big
+Downarrow,big down arrow,down arrow big
+Leftarrow,big left arrow,left arrow big
+Rightarrow,big right arrow,right arrow big
+Updownarrow,big up down arrow,up down arrow big
+Leftrightarrow,big left right arrow,left right arrow big
+Longleftarrow,big long left arrow,long left arrow big
+Longrightarrow,big long right arrow,long right arrow big
+Longleftrightarrow,big long left right arrow,long left right arrow big
+nwarrow,northwest arrow
+nearrow,northeast arrow
+swarrow,southwest arrow
+searrow,southeast arrow
+mapsto,maps to
+longmapsto,long maps to
+
+ldots,L dots,line dots,dots
+cdot,C dot,center dot
+cdots,C dots,center dots
+vdots,V dots,vertical dots
+ddots,D dots,diagonal dots
+
+infty,infinity
+prime
+
+LaTeX,latex
+TeX,tex
+
+space,symbol space,latex space
+quad,quad,quad space,quadruple space
+
+sharp
+flat
+natural

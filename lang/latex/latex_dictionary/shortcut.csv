@@ -1,0 +1,36 @@
+Shortcut, Pronunciation (if different), [Pronunciation 2], ...
+
+\varnothing,var nothing,empty set
+\mathbb{N},natural numbers
+\mathbb{Z},integers
+\mathbb{Z}_+,positive integers
+\mathbb{Z}_-,negative integers
+\mathbb{Z}_,integers mod,integers modulo
+\mathbb{Q},rational numbers
+\mathbb{Q}_+,positive rational numbers
+\mathbb{Q}_-,negative rational numbers
+\mathbb{R},real numbers
+\mathbb{R}_+,positive real numbers
+\mathbb{R}_-,negative real numbers
+\mathbb{C},complex numbers
+
+-\infty,minus infinity,negative infinity
+
+^2,squared
+^3,cubed
+
+\frac{d}{dx}(),derivative
+
+\lim_{x\rightarrow\infty},infinite limit next,infinite limit
+\lim_{n\rightarrow\infty},infinite limit end
+"\int_{0}^{\infty}\,d",infinite integral
+\sum_{n=1}^{\infty},infinite sum
+\prod_{n=1}^{\infty},infinite product
+
+[label=\alph*.],label alpha
+[label=\Alph*.],label big alpha
+[label=\roman*.],label roman
+[label=\Roman*.],label big roman
+
+\addtocounter{enum}{1},add to counter
+\addtocounter{enumi}{1},add to inside counter

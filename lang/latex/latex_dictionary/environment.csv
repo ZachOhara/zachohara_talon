@@ -3,16 +3,18 @@ Environment name, Pronunciation (if different), [Pronunciation 2], ...
 abstract
 align
 array
+bordermatrix,border matrix
 cases
 dcases,D cases,display cases
 center
 columns
 definition
-displaymath,display math
 document
 enumerate,enumeration
 equation
+eqnarray,equation array
 gather
 itemize,list
+matrix
 minipage,many page
-
+smallmatrix,small matrix
