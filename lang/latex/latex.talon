@@ -9,7 +9,7 @@ settings():
 latex dictionary:
     user.latex_dictionary_menu()
 # Basic latex formatting
-inline math:
+inline [math]:
     insert('$$')
     key(left)
 display math:

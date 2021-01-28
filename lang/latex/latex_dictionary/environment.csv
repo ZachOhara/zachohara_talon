@@ -17,4 +17,5 @@ gather
 itemize,list
 matrix
 minipage,many page
+multicols,multi calls,multi columns,multiple columns
 smallmatrix,small matrix

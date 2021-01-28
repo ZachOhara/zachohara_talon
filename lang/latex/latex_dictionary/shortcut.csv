@@ -31,6 +31,7 @@ Shortcut, Pronunciation (if different), [Pronunciation 2], ...
 [label=\Alph*.],label big alpha
 [label=\roman*.],label roman
 [label=\Roman*.],label big roman
+[label=\arabic*.],label arabic
 
 \addtocounter{enum}{1},add to counter
 \addtocounter{enumi}{1},add to inside counter

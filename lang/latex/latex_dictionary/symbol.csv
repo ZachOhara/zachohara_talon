@@ -19,7 +19,7 @@ supset,proper superset,superset proper
 in
 notin,not in
 cup,cup,union
-cap,cap,intersect,intersection
+cap,intersect,intersection
 
 lim,limit
 sum,sum,summation
